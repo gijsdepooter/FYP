@@ -1,0 +1,63 @@
+.program pulse
+    pull block    ; Wait for a value to be available in the OSR
+    mov x, osr    ; Move the OSR value to the X scratch register
+.wrap_target
+    ; configure all pins as outputs
+    set pindirs 7 [10]
+
+    ; set pin 1 high
+    set pins 1
+    nop [10]
+
+    ; set pin 2 high, pin 1 low
+    set pins 2
+    nop [10]
+
+    ; set pin 3 high, pin 2 low
+    set pins 4
+    nop [10]
+
+    ; set all pins low
+    set pins 0
+
+    ; configure all pins as outputs
+    set pindirs 7 [10]
+
+    ; set pin 1 high
+    set pins 1
+    nop [10]
+
+    ; set pin 2 high, pin 1 low
+    set pins 2
+    nop [10]
+
+    ; set pin 3 high, pin 2 low
+    set pins 4
+    nop [10]
+
+    ; set all pins low
+    set pins 0
+exit:
+    jmp exit
+
+
+
+
+
+% c-sdk {
+// This function initializes GPIO pins 2, 3, and 4 and sets them as output pins for the state machine
+
+static inline void pulse_program_init(PIO pio, uint sm, uint offset, uint pin_base) {
+    for (int i = 0; i < 3; i++) {
+        pio_gpio_init(pio, pin_base + i);
+    }
+    pio_sm_set_consecutive_pindirs(pio, sm, pin_base, 3, true);
+    pio_sm_config c = pulse_program_get_default_config(offset);
+    sm_config_set_set_pins(&c, pin_base, 3);
+    pio_sm_init(pio, sm, offset, &c);
+    uint pulse_delay = (clock_get_hz(clk_sys) / (2 * 5000)) - 3;
+    pio->txf[sm] = pulse_delay;
+    pio_sm_set_enabled(pio, sm, true);
+}
+
+%}
