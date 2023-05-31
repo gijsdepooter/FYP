@@ -28,4 +28,4 @@ This project uses the LTC2236, a 10 bit DAC that can sample up to 65Msps. The AD
 
 **MUX**
 
-The multiplexer unit is an optional IC to leverage the single channel architecture of this board to controll multiple transducer channels. This allows for contructing B-Mode images with linear and phased arrays.
+The multiplexer unit is an optional IC to leverage the single channel architecture of this board to controll multiple transducer channels. This allows for constructing B-Mode images with linear and phased arrays.
