@@ -24,5 +24,5 @@ This is a 12 bit DAC that is controlled using the PIO interface of the rapsberry
 
 **ADC** 
 
-This project uses the LTC2236, a 10 bit DAC that can sample up to 65Msps. The ADC has a parallel output. The raspberry pi zero is used to decode the parallel ouptut using DMA and the secondary memory interface (SMI).
+This project uses the LTC2236, a 10 bit DAC that can sample up to 65Msps. The ADC has a parallel output. The raspberry pi zero is used to decode the parallel ouptut using DMA and the secondary memory interface (SMI). Most of the code that controlls the ADC is from https://github.com/jbentham/rpi, and merely adapted to suit the needs of the IC of choice.
 
