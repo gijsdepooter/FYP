@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD8331ARQZ
+D AD8331ARQZ, Programmable Gain Amplifier, 20-Pin QSOP
+K
+F http://www.analog.com/static/imported-files/data_sheets/AD8331_8332_8334.pdf
+$ENDCMP
+#
+#End Doc Library

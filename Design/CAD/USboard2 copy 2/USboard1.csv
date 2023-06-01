@@ -1,0 +1,46 @@
+Source:,/Users/gijsdepooter/Desktop/UROP/CAD/USboard2 copy 2/USboard1.kicad_sch,,,,,,,,
+Date:,"Wednesday, 22 March 2023 at 10:44:08",,,,,,,,
+Tool:,Eeschema (7.0.0-0),,,,,,,,
+Generator:,/Applications/KiCad/KiCad.app/Contents/SharedSupport/plugins/bom_csv_grouped_by_value_with_fp.py,,,,,,,,
+Component Count:,113,,,,,,,,
+Ref,Qnty,Value,Cmp name,Footprint,Description,SUPPLIER,SPN,MPN,Link
+C1,1,10uF,C,Capacitor_SMD:C_0603_1608Metric,Unpolarized capacitor,,,,
+C2,1,1u,C,Capacitor_SMD:C_0603_1608Metric,Unpolarized capacitor,,,,
+C3,1,0.01u,C,Capacitor_SMD:C_0603_1608Metric,Unpolarized capacitor,,,,
+"C4, C5, C6, C7, C8, C9, C10, C11, C13, C19, C20, C24",12,0.1u,C,Capacitor_SMD:C_0603_1608Metric,Unpolarized capacitor,,,,
+C12,1,4.7u,C,Capacitor_SMD:C_0603_1608Metric,Unpolarized capacitor,,,,
+C14,1,2.2u,C,Capacitor_SMD:C_0603_1608Metric,Unpolarized capacitor,,,,
+"C15, C16",2,1uF,C,Capacitor_SMD:C_0603_1608Metric,Unpolarized capacitor,,,,
+C17,1,55pF,C,Capacitor_SMD:C_0603_1608Metric,Unpolarized capacitor,,,,
+"C18, C21",2,0.1uF,C,Capacitor_SMD:C_0603_1608Metric,Unpolarized capacitor,,,,
+"C43, C44, C45, C46, C47, C48, C49",7,100nF,C,Inductor_SMD:L_0603_1608Metric,Unpolarized capacitor,,,,
+"C50, C52, C54, C56, C62",5,1nF,C,Capacitor_SMD:C_0603_1608Metric,Unpolarized capacitor,,,,
+"C51, C53, C55, C57, C58, C59, C61, C63",8,100nF,C,Capacitor_SMD:C_0603_1608Metric,Unpolarized capacitor,,,,
+C60,1,18nF,C,Capacitor_SMD:C_0603_1608Metric,Unpolarized capacitor,,,,
+"D1, D2, D3",3,BAV99,BAV99,Package_TO_SOT_SMD:SOT-23,"BAV99 High-speed switching diodes, SOT-23",Farnell,,,https://uk.farnell.com/diodes-inc/bav99/diode-ss-dual-100v-0-3a-sot23/dp/1902422?gclid=CjwKCAjwzuqgBhAcEiwAdj5dRnNMo2vUwmWNa-a6Z8qkM686FvE0KagSaIXjv1Z1VowLZIGDngJZpxoC5r0QAvD_BwE&mckv=s4YFm3pkp_dc%7Cpcrid%7C650319808490%7Ckword%7Cbav99%7Cmatch%7Cp%7Cplid%7C%7Cslid%7C%7Cproduct%7C%7Cpgrid%7C61856150770%7Cptaid%7Ckwd-262855813%7C&CMP=KNC-GUK-GEN-SKU-MDC-Test787
+"H1, H2, H3, H4",4,MountingHole,MountingHole,MountingHole:MountingHole_3.5mm,Mounting Hole without connection,,,,
+J1,1,Screw_Terminal_01x04,Screw_Terminal_01x04,screwConn3:1751264,"Generic screw terminal, single row, 01x04",Digikey,,,https://www.digikey.co.uk/en/products/detail/phoenix-contact/1751264/2511021
+J2,1,Raspberry_Pi_2_3,Raspberry_Pi_2_3,Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical,expansion header for Raspberry Pi 2 & 3,Mouser,,,https://www.mouser.co.uk/ProductDetail/Adafruit/2222?qs=GURawfaeGuDZD0rNtWpsaQ%3D%3D
+"J3, J5",2,Conn_Coaxial,Conn_Coaxial,Connector_Coaxial:SMA_Amphenol_132289_EdgeMount,coaxial connector SMA,RS,,,https://uk.rs-online.com/web/p/coaxial-connectors/5265785?cm_mmc=UK-PLA-DS3A-_-google-_-CSS_UK_EN_Connectors_Whoop-_-Coaxial+Connectors_Whoop+(2)_OMNISerpNov-_-5265785&matchtype=&pla-590141462391&cq_src=google_ads&cq_cmp=9771206614&cq_term=&cq_plac=&cq_net=g&cq_plt=gp&gclid=CjwKCAjwzuqgBhAcEiwAdj5dRn2vmBsAT07Whejr9E3rJ6duRktE1ktxOJE2F_1hfF5hU7jXN6vddBoCR9AQAvD_BwE&gclsrc=aw.ds
+J4,1,Conn_01x12_Pin,Conn_01x12_Pin,Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical,"Generic connector, single row, 02x6",Mouser,,,https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/10129381-912003BLF?qs=0lQeLiL1qyb2GJZ3J3Epuw%3D%3D
+"JP1, JP3, JP4, JP5, JP9",5,Jumper_2_Open,Jumper_2_Open,Connector_PinHeader_2.00mm:PinHeader_2x01_P2.00mm_Vertical,"Jumper, 2-pole, open",,,,
+"JP2, JP6",2,Jumper_2_Bridged,Jumper_2_Bridged,Connector_PinHeader_2.00mm:PinHeader_2x01_P2.00mm_Vertical,"Jumper, 2-pole, closed/bridged",,,,
+"JP7, JP8, JP10",3,Jumper_3_Bridged12,Jumper_3_Bridged12,Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical,"Jumper, 3-pole, pins 1+2 closed/bridged",,,,
+"L1, L6, L7, L8, L9",5,100nH,L,Inductor_SMD:L_0603_1608Metric,Inductor,,,,
+R1,1,100K,R,Resistor_SMD:R_0603_1608Metric,Resistor,,,,
+R2,1,105K,R,Resistor_SMD:R_0603_1608Metric,Resistor,,,,
+"R3, R4, R5",3,1K,R,Resistor_SMD:R_0603_1608Metric,Resistor,,,,
+"R6, R7",2,1k,R,Resistor_SMD:R_0603_1608Metric,Resistor,,,,
+R8,1,49.9,R,Resistor_SMD:R_0603_1608Metric,Resistor,,,,
+"R9, R10",2,18,R,Resistor_SMD:R_0603_1608Metric,Resistor,,,,
+"R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R24, R25, R26",16,33,R,Resistor_SMD:R_0603_1608Metric,Resistor,,,,
+R29,1,4.7K,R,Resistor_SMD:R_0603_1608Metric,Resistor,,,,
+R30,1,4.7k,R,Resistor_SMD:R_0603_1608Metric,Resistor,,,,
+R31,1,10K,R,Resistor_SMD:R_0603_1608Metric,Resistor,,,,
+"R37, R38",2,100,R,Resistor_SMD:R_0603_1608Metric,Resistor,,,,
+R39,1,11k,R,Resistor_SMD:R_0603_1608Metric,Resistor,,,,
+"R41, R42, R43",3,280,R,Resistor_SMD:R_0603_1608Metric,Resistor,,,,
+U2,1,MD0100N8-G,MD0100N8-G,MDO100:MD0100N8-G,T/R protection switch,Mouser,,,https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Atmel/MD0100N8-G?qs=0AMA1uIX0FIE5iDlCsAHAw%3D%3D
+U4,1,MCP4725A3T-E/CH,MCP4725A3T-E/CH,Package_TO_SOT_SMD:SOT-23-6,"12-bit Digital-to-Analog Converter, integrated EEPROM, I2C interface, SOT-23-6",Mouser,,,https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP4725A3T-E-CH?qs=hH%252BOa0VZEiBSYoLvaYdGYg%3D%3D
+U5,1,LT1763IS8-3.3-PBF,LT1763IS8-3.3-PBF,VCCsup:LT1763IS8-3.3-PBF,Voltage regulator,Mouser,,LT1763IS8-3.3#PBF,https://www.mouser.co.uk/ProductDetail/Analog-Devices/LT1763IS8-3.3PBF?qs=ytflclh7QUXoCHefIThm8A%3D%3D
+U6,1,NC7SVU04P5X,NC7SVU04P5X,INVERTER:NC7SVU04P5X,Inverter,Farnell,,NC7SVU04P5X,https://dk.farnell.com/en-DK/on-semiconductor/nc7svu04p5x/inverter-gate-single-1-i-p-sc/dp/2453123

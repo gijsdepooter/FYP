@@ -1,0 +1,13 @@
+Source:,/Users/gijsdepooter/Desktop/Desktop - Gijs’s MacBook Pro/UROP/MUXboard/MUXboard.kicad_sch,,,,,,,,,
+Date:,"Monday, 24 April 2023 at 08:52:58",,,,,,,,,
+Tool:,Eeschema (7.0.0-0),,,,,,,,,
+Generator:,,,,,,,,,,
+Component Count:,9,,,,,,,,,
+Ref,Qnty,Value,Cmp name,Description,Supplier,Supplier Part Number,Manufacturer,MPN,,
+"C1, C2",2,1u,C,Unpolarized capacitor,Mouser,810-C1608X7R1A105K,TDK,C1608X7R1A105K080AC,,https://www.mouser.co.uk/ProductDetail/TDK/C1608X7R1A105K080AC?qs=NRhsANhppD%252BTxQoqW7Ms9Q%3D%3D
+IC1,1,HV2607T-C_R8X,HV2607T-C_R8X,HV2607T-C/R8X,Digikey,150-HV2607T-C/R8XTR-ND,Microchip Technology,HV2607T-C/R8X,,
+"J1, J2",2,Conn_Coaxial,Conn_Coaxial_1,coaxial connector SMA,RS,180-9922,Wurth Elektronik,6.03142E+13,,https://uk.rs-online.com/web/p/coaxial-connectors/1809922
+J4,1,Conn_01x16_Pin,Conn_01x16_Pin,"Generic connector, single row, 01x16, script generated",Mouser,200-TSW10808LD,Samtec,TSW-108-08-L-D,,https://www.mouser.co.uk/ProductDetail/Samtec/TSW-108-08-L-D?qs=rU5fayqh%252BE3wWhrtuP8e1w%3D%3D
+J5,1,Conn_01x12_Pin,Conn_01x12_Pin,"Generic connector, single row, 01x12, script generated",Mouser,649-1012938191203BLF,Amphenol FCI,10129381-912003BLF,,https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/10129381-912003BLF?qs=0lQeLiL1qyb2GJZ3J3Epuw%3D%3D
+JP1,1,Jumper_2_Open,Jumper_2_Open,"Jumper, 2-pole, open",Mouser,855-M22-2510205,Harwin,M22-2510205,,https://www.mouser.co.uk/ProductDetail/Harwin/M22-2510205?qs=vF78I%252BjhbY%2FHssMovH2Mxg%3D%3D
+"R1, R2, R3, R4, R5",5,10K,R,Resistor,Mouser,603-RC0603FR-0710KL,YAGEO,RC0603FR-0710KL,,https://www.mouser.co.uk/ProductDetail/YAGEO/RC0603FR-0710KL?qs=grNVn54RoB%252B3GtjbJj3wJQ%3D%3D

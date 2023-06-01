@@ -1,0 +1,7 @@
+chip,quantity,name,,,,,link
+U1,1,LTC2236IUH-PBF,LTC2236:LTC2236IUH-PBF,ADC 25MSPS 10BIT,Mouser,,https://www.mouser.co.uk/ProductDetail/Analog-Devices/LTC2236CUHPBF?qs=hVkxg5c3xu9mjIScvNp8xw%3D%3D
+U2,1,MD0100N8-G,MDO100:MD0100N8-G,T/R SWITCH,Mouser,,https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Atmel/MD0100N8-G?qs=0AMA1uIX0FIE5iDlCsAHAw%3D%3D
+U3,1,74VCX16373MTD,Latch:74VCX16373MTD,LOGIC LATCH,Mouser,,https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/74VCX16373MTD?qs=bX5Pkui%252BodUH7A1197lniw%3D%3D&gclid=Cj0KCQiA0oagBhDHARIsAI-BbgeW8cIDEn50PvG5J5O6fcadk888G0jIVxNzTBX1jO997b-kWCnwCC0aAlQZEALw_wcB
+U4,1,MCP4725A3T-E/CH,Package_TO_SOT_SMD:SOT-23-6,"12-bit Digital-to-Analog Converter, integrated EEPROM, I2C interface, SOT-23-6",Mouser,,https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP4725A3T-E-CH?qs=hH%252BOa0VZEiBSYoLvaYdGYg%3D%3D
+U10,1,HV7361GA-G,HV7361:HV7361GA-G,PULSER,Mouser,,https://www.mouser.co.uk/ProductDetail/579-HV7361GA-G
+U11,1,AD8331ARQZ,AD8331:SOP64P600X175-20N,"AD8331ARQZ, Programmable Gain Amplifier, 20-Pin QSOP",Mouser,,https://www.mouser.co.uk/ProductDetail/Analog-Devices/AD8331ARQZ-R7?qs=%2FtpEQrCGXCysgac2siIaMw%3D%3D
