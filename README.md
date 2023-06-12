@@ -3,7 +3,7 @@ Developing a Single Channel Ultrasound Device
 
 This project is being done with the Imperial College London Bioengineering Department, in collaboration with Prof Manos Drakakis and PhD Momen Kamal Tageldeen
 
-This is a Repo for the firmware that I am developing for an US scanner.
+This is a Repo for all the relevant material that I am developing/using for a low cost US scanner.
 
 There are a few main parts of the US hardware:
 
